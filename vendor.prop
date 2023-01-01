@@ -36,3 +36,6 @@ vendor.lineage.fod.enable=true
 
 # Motor
 vendor.lineage.motor.enable=true
+
+#USB
+vendor.usb.product_string=Poco F2 Pro

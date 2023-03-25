@@ -44,3 +44,10 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)
+
+# OTA certificates
+PRODUCT_EXTRA_RECOVERY_KEYS += \
+    $(LOCAL_PATH)/security/magisk \
+    $(LOCAL_PATH)/security/miui \
+    $(LOCAL_PATH)/security/opengapps \
+    $(LOCAL_PATH)/security/mindthegapps
